@@ -38,11 +38,11 @@ To construct the samples, first run `prep_dealscan.R`, then all other preparatio
 
 The empirical analysis is implemented in the statistical software [Stata](https://www.stata.com/). To replicate the results, run `_prestige_main.do` which calls all other DO-files in the appropriate order. Make sure the following modules are installed:
 
-* `[cem](https://gking.harvard.edu/cem)`: coarsened exact matching algorithm.
-* `[estout](http://repec.org/bocode/e/estout/installation.html)`: module to make regression tables.
-* `[reghdfe](http://scorreia.com/software/reghdfe/)`: module to efficiently estimate models with many levels of fixed effects.
-* `[rdrobust](https://sites.google.com/site/rdpackages/rdrobust)`: module for statistical inference and graphical procedures for regression discontinuity designs employing local polynomial and partitioning methods.
-* `[outtable](http://fmwww.bc.edu/RePEc/bocode/o/outtable.html)`: module to write matrices to LaTeX tables.
-* `[winsor2](http://www.haghish.com/statistics/stata-blog/stata-programming/download/winsor2.html)`: module to winsorize or trim data.
+* [`cem`](https://gking.harvard.edu/cem): coarsened exact matching algorithm.
+* [`estout`](http://repec.org/bocode/e/estout/installation.html): module to make regression tables.
+* [`reghdfe`](http://scorreia.com/software/reghdfe/): module to efficiently estimate models with many levels of fixed effects.
+* [`rdrobust`](https://sites.google.com/site/rdpackages/rdrobust): module for statistical inference and graphical procedures for regression discontinuity designs employing local polynomial and partitioning methods.
+* [`outtable`](http://fmwww.bc.edu/RePEc/bocode/o/outtable.html): module to write matrices to LaTeX tables.
+* [`winsor2`](http://www.haghish.com/statistics/stata-blog/stata-programming/download/winsor2.html): module to winsorize or trim data.
  
  All output tables are exported as TEX-files to `empirical_analysis/output`. 
